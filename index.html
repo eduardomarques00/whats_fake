@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+        </style>
+        
+    <title>whatsApp Web Clone</title>
+     <script src="https://kit.fontawesome.com/8dc58628a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="tool-bar">
+                <img class="user-photo" src="img/avatar1.png">
+                <div class="auxicons-toolbar-container">
+                    <i class="fas fa-spinner"></i>
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+
+                    </div>
+                </div>
+                <div class="notification-container">
+                    <i class="fas fa-bell-slash"></i>
+                    <p class="receive-notifications">
+                        Receba notificações de novas mensagens
+                    </p>
+                    <p class="activation-notifications">
+                        Ativas notificações na área de trabalho 
+                        <i class="fas fa-angle-right"></i>
+                    </p>
+                                                                                                                       
+                </div>
+                <div class="search-container">
+                    <i id="contact-search" class="fas fa-search"></i>
+                    <input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+
+                </div>
+                <div class="contact-box active-chat">
+                    <img class="user-photo" src="img/avatar2.png" alt="">
+                    <div class="user-info">
+                        <p class="user-name">Amor</p>
+                        <p class="user-messagepreview">
+                            <i class="fas fa-check-double">
+                        </i>    Oi mozao
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">22:40</p>
+                        
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo" src="img/avatar5.png" alt="">
+                    <div class="user-info">
+                        <p class="user-name">Mae</p>
+                        <p class="user-messagepreview">
+                            <i class="fas fa-check-double">
+                        </i>    Vcs já estão vindo?
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">22:40</p>
+                        
+                    </div>
+                </div>
+                <div class="contacts-container">
+                    <div class="contact-box">
+                        <img class="user-photo" src="img/avatar3.png" alt="">
+                        <div class="user-info">
+                            <p class="user-name">kainna</p>
+                            <p class="user-messagepreview">vai treina ?</p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">12:30</p>
+                            <p class="message-pending">3</p>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="contacts-container">
+                        <div class="contact-box">
+                            <img class="user-photo" src="img/avatar4.png" alt="">
+                            <div class="user-info">
+                                <p class="user-name">Peso da Lana</p>
+                                <p class="user-messagepreview">Amor mudou a descrição do grupo.Clique para ver.</p>
+                            </div>
+                            <div class="message-info">
+                                <p class="message-time">08:20</p>
+                                <p class="message-pending">5</p>
+                            </div>
+
+                            
+    
+                        </div>
+                    
+                
+               
+
+                </div>
+            
+            </div>
+
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img class="user-photo" src="img/avatar2.png" alt="">
+                    <p class="user-name">Amor</p>
+
+                </div>
+                <ul class="chattools-container">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-paperclip"></i></li>
+                    <li><i class="fas fa-ellipsis-v"></i></li>
+ 
+                </ul>
+
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-messages">
+                <p class="guest-message">Oi amor</p>
+                <p class="user-message">Oi amor</p>
+            </div>
+            </div>
+            <div class="sendmesage-container">
+                <i class="far fa-grin"></i>
+                <input type="text" id="chat-messages" name="message" class="userinput" placeholder="Digite uma mensagem">
+                <i class="fas fa-microphone"></i>
+            </div>
+            
+        </main>
+
+    </div>
+</body>
+</html>
